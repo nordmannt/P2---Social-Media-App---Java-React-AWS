@@ -32,7 +32,8 @@ The **Social Networking** project is an online platform designed to make social 
 
 Clone the repository using the following command:  
 ```bash
-git clone https://github.com/michaelcao512/SocialNetwork.git
+git clone  https://github.com/nordmannt/P2---Social-Media-App---Java-React-AWS/pull/new/main
+
 ```
 
 ### Setup Instructions
