@@ -1,0 +1,65 @@
+/* Container styles */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f8fc; /* Light blue-gray */
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Card styles */
+  .card {
+    max-width: 600px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Logo styles */
+  .logo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #334e71; /* Deep navy blue */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+  }
+  
+  /* Title styles */
+  .title {
+    font-size: 24px;
+    color: #2c3e50; /* Darker text color */
+    margin-bottom: 10px;
+  }
+  
+  /* Message styles */
+  .message {
+    font-size: 16px;
+    color: #34495e; /* Standard dark gray text */
+    margin-bottom: 20px;
+  }
+  
+  /* Button styles */
+  .button {
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff; /* text */
+    background-color: #1C4260; /* blue-gray */
+    border: none;
+   
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #2c3e50; /* Darker navy background */
+    color: #ffffff; /* White text */
+  }
+  
+  

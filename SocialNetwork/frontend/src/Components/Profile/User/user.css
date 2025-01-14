@@ -1,0 +1,9 @@
+.user-profiles {
+    display: flex;
+    align-items: baseline;
+    padding: 1em;
+}
+
+#user-fullname {
+    margin-left: 10px;
+}

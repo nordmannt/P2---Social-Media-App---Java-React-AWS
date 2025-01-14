@@ -1,0 +1,29 @@
+pipeline {
+    agent any
+    // triggers {
+    //     cron('5 0 * * *') // repeats everyday at 12:05 am
+    // }
+    stages {
+        stage('Clone Code') {
+            steps {
+                git branch: "main", url: 'https://github.com/michaelcao512/SocialNetwork.git'
+            }
+        }
+        stage('Run Tests') {
+            steps {
+                dir('socialmedia') {
+                    sh 'mvn test'
+                }
+            }
+        }
+    }
+    post {
+        success {
+            echo 'Tests passed'
+            build job: 'Jenkinsfile-build', wait: false
+        }
+        failure {
+            echo 'Tests failed. Please check the logs.'
+        }
+    }
+}

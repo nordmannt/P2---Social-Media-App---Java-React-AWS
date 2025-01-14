@@ -1,0 +1,43 @@
+/* Container styles */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f8fc; /* Light blue-gray */
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  /* Card styles */
+  .card {
+    max-width: 600px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Logo styles */
+  .logo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #334e71; /* Deep navy blue */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+  }
+  
+  /* Title styles */
+  .title {
+    font-size: 24px;
+    color: #2c3e50; /* Darker text color */
+    margin-bottom: 10px;
+  }
+  
+  /* Message styles */
+  .message {
+    font-size: 16px;
+    color: #34495e; /* Standard dark gray text */
+  }
+  
