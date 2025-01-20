@@ -1,15 +1,12 @@
 import { Box, Typography, Link } from "@mui/material";
 import { StyledCard, StyledStack } from "../../StyledComponents/StyledComponents";
 import RegistrationForm from "./RegistrationForm";
-import Logo from "../Logo";
 
 function RegistrationContainer() {
     return (
         <StyledStack>
             <StyledCard>
-                <Logo sx={{ marginBottom: "0.5rem" }} />
-
-                <Typography variant="h5">Sign up</Typography>
+                <Typography variant="h4">Join Us</Typography>
 
                 <RegistrationForm />
                 <Box sx={{ marginTop: "1rem", textAlign: "center" }}>

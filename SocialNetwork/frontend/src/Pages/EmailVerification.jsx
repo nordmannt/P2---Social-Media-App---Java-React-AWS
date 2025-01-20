@@ -51,7 +51,7 @@ const EmailVerification = () => {
             {status === "loading" && <p className="message">Verifying your email...</p>}
             {status === "success" && (
                 <div className="card">
-                    <h1 className="logo">Connect.</h1>
+                    
                     <h2 className="title">Email Verified!</h2>
                     <p className="message">Your email has been successfully verified. Please continue to the login page to log into your account.</p>
                     <button onClick={() => navigate("/login")} className="button">
@@ -61,14 +61,14 @@ const EmailVerification = () => {
             )}
             {status === "error" && (
                 <div className="card">
-                    <h1 className="logo">Connect.</h1>
+                   
                     <h2 className="title">Verification Failed</h2>
                     <p className="message">There was an issue verifying your email. Please try again.</p>
                 </div>
             )}
             {status === "invalid" && (
                 <div className="card">
-                    <h1 className="logo">Connect.</h1>
+                  
                     <h2 className="title">Invalid Link</h2>
                     <p className="message">The verification link is invalid or missing a token.</p>
                 </div>

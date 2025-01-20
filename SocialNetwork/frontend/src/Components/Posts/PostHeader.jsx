@@ -77,12 +77,13 @@ function PostHeader({ entityOwner, entity, canManage, onEntityUpdate, onEntityDe
                         <Typography variant="caption">
                             {entity.dateCreated
                                 ? new Intl.DateTimeFormat("en-US", {
+                                      timeZone: 'America/New_York',  
                                       year: "numeric",
                                       month: "2-digit",
                                       day: "2-digit",
                                       hour: "2-digit",
                                       minute: "2-digit",
-                                  }).format(new Date(entity.dateCreated))
+                                  }).format(new Date(entity.dateCreated +"Z"))
                                 : "No timestamp available"}
                         </Typography>{" "}
                     </Box>

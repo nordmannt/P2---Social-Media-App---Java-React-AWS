@@ -1,14 +1,12 @@
 import { Typography, Box, Link } from "@mui/material";
 import { StyledCard, StyledStack } from "../../StyledComponents/StyledComponents";
 import LoginForm from "./LoginForm";
-import Logo from "../Logo";
+
 function LoginContainer() {
     return (
         <StyledStack>
             <StyledCard>
-                <Logo sx={{ marginBottom: "0.5rem" }} />
-
-                <Typography variant="h5">Login</Typography>
+                <Typography variant="h4">Login</Typography>
                 <LoginForm />
                 <Box sx={{ marginTop: "1rem", textAlign: "center" }}>
                     <Typography variant="body1" sx={{ display: "inline", marginRight: "0.5rem" }}>
